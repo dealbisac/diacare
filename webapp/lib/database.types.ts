@@ -4,6 +4,7 @@ export type Database = {
     Tables: {
       profiles: {
         Row: {
+          full_name: string
           id: string
           user_id: string
           first_name: string
@@ -18,6 +19,9 @@ export type Database = {
       }
       glucose_readings: {
         Row: {
+          notes: string
+          taken_at: string | number | Date
+          reading_value: string
           id: string
           user_id: string
           reading: number
@@ -29,6 +33,7 @@ export type Database = {
       }
       medical_devices: {
         Row: {
+          last_sync_at: any
           id: string
           user_id: string
           device_name: string
@@ -53,6 +58,9 @@ export type Database = {
       }
       emergency_contacts: {
         Row: {
+          phone_number: string
+          is_primary: any
+          contact_name: string
           id: string
           user_id: string
           first_name: string
@@ -66,6 +74,8 @@ export type Database = {
       }
       appointments: {
         Row: {
+          title: string
+          location: any
           id: string
           user_id: string
           appointment_date: string
