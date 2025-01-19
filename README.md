@@ -84,7 +84,8 @@ Jack Dickinson
 Access the application here: [DiaCare WebApp](https://diacare-techlabs.vercel.app/)  
 ![Web App Prototype](resources/home.png)
 
-Screenshots and images of the app can be found in the [resources folder](https://github.com/dealbisac/diacare/tree/main/resources).
+Other screenshots and images of the app can be found in the [resources folder](https://github.com/dealbisac/diacare/tree/main/resources).
+![Web App Prototype](resources/dashboard.png)
 
 ## Installation
 
