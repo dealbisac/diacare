@@ -2,6 +2,8 @@
 
 DiaCare is an innovative platform designed to simplify diabetes management for individuals and families. By integrating with blood glucose monitoring devices, providing real-time tracking, predictive insights, and fostering community collaboration, DiaCare empowers users to take control of their health and stay connected with their loved ones.
 
+![Web App Prototype](resources/mobile.png)
+
 ## Abstract
 
 Managing diabetes can be especially challenging for families living far apart. DiaCare bridges this gap by offering an intuitive application that tracks blood glucose levels, enables family-sharing features, and supports collective learning through a community platform. This comprehensive solution empowers diabetic individuals and their families with tools for better health management.
