@@ -40,6 +40,9 @@ export type Database = {
       }
       alerts: {
         Row: {
+          threshold_low: string
+          threshold_high: string
+          is_active: any
           id: string
           user_id: string
           alert_type: string
