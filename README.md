@@ -59,8 +59,12 @@ We have documented and stored project materials across various platforms:
 - **Miro**: Idea sketching and brainstorming.
 - **Figma**: Wireframe and design prototypes.
 - **Trello**: Task management and scheduling.
-- **Slack**: Team communication.
+- **Slack, Whatsapp, Google Meet**: Team communication.
 - **Google Drive**: Storage for datasets, documentation, and other resources.
+- **Kaggle, Hugging Face**: Utilized public datasets for analysis and modeling.
+- **Javascript, Nextjs, React**: Programming languages and frameworks used for development.
+- **Vercel**: Cloud infrastructure for hosting and scalability.
+- **Supabase, MongoDB**: Utilized for data storage and management.
 
 ## Tech Stack
 
