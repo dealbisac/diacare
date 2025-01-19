@@ -69,7 +69,7 @@ export function AlertSettings() {
             <Switch
               id={`alert-${alert.id}`}
               checked={alert.is_active}
-              onCheckedChange={(checked) =>
+              onCheckedChange={(checked: any) =>
                 updateAlert(alert.id, { is_active: checked })
               }
             />
