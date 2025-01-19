@@ -5,7 +5,7 @@ import { supabase } from '@/lib/supabase-client';
 import type { MedicalDevice } from '@/lib/supabase-client';
 import { Button } from '@/components/ui/button';
 import { PlusCircle, Smartphone, Watch, Activity } from 'lucide-react';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 export function DeviceStatus() {
   const [devices, setDevices] = useState<MedicalDevice[]>([]);
