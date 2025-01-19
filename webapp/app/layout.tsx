@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'DiabetesConnect - Diabetes Management Platform',
+  title: 'DiaCare - 24/7 real-time support for diabetic patients. ',
   description: 'A comprehensive platform for diabetes management, support, and information.',
 };
 

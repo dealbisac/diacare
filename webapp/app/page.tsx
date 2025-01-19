@@ -8,9 +8,9 @@ export default function Home() {
       <SiteHeader />
       <main className="container py-6">
         <div className="flex flex-col gap-4">
-          <h1 className="text-3xl font-bold">Welcome to DiabetesConnect</h1>
+          <h1 className="text-3xl font-bold">Welcome to DiaCare</h1>
           <p className="text-muted-foreground">
-            Your comprehensive platform for diabetes management and support
+          24/7 real-time support for diabetic patients. 
           </p>
           
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">

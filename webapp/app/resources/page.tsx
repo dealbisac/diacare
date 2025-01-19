@@ -8,7 +8,7 @@ export default function ResourcesPage() {
       <main className="container py-6">
         <div className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold">Diabetes Resources</h1>
+            <h1 className="text-3xl font-bold">DiaCare Resources</h1>
           </div>
           <ResourceLibrary />
         </div>

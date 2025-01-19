@@ -18,7 +18,7 @@ export default function DashboardPage() {
       <main className="container py-6">
         <div className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold">Diabetes Dashboard</h1>
+            <h1 className="text-3xl font-bold">DiaCare Dashboard</h1>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
