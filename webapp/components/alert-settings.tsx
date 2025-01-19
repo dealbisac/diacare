@@ -113,7 +113,7 @@ export function AlertSettings() {
         onClick={() => {
           toast({
             title: "Test Alert",
-            description: "This is how your alerts will appear.",
+            description: "You have pressed the alert button, Click X to cancel the alert.",
           });
         }}
       >
