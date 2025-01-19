@@ -82,7 +82,7 @@ export default function DashboardPage() {
             {/* Alerts and Notifications*/}
             <Card>
               <CardHeader>
-                <CardTitle>Appointments & Alerts</CardTitle>
+                <CardTitle>Notifications & Alerts</CardTitle>
                 <CardDescription>Manage your medical alerts and notifications</CardDescription>
               </CardHeader>
               <CardContent>
@@ -105,6 +105,7 @@ export default function DashboardPage() {
               </CardContent>
             </Card>
 
+            {/* Latest Readings */}
             <Card>
               <CardHeader>
                 <CardTitle>Latest Readings</CardTitle>
@@ -117,6 +118,7 @@ export default function DashboardPage() {
               </CardContent>
             </Card>
 
+            {/* Connected Devices */}
             <Card>
               <CardHeader>
                 <CardTitle>Connected Devices</CardTitle>
@@ -129,6 +131,7 @@ export default function DashboardPage() {
               </CardContent>
             </Card>
 
+            {/* Family Sharing */}
             <Card>
               <CardHeader>
                 <CardTitle>Family Sharing</CardTitle>
@@ -141,6 +144,7 @@ export default function DashboardPage() {
               </CardContent>
             </Card>
 
+            {/* Emergency Contacts */}
             <Card>
               <CardHeader>
                 <CardTitle>Emergency Contacts</CardTitle>
