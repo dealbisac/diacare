@@ -8,7 +8,7 @@ export function SiteHeader() {
       <div className="container flex h-14 items-center">
         <div className="flex items-center space-x-2 mr-4">
           <Activity className="h-6 w-6" />
-          <span className="font-bold">DiabetesConnect</span>
+          <span className="font-bold">DiaCare</span>
         </div>
         <MainNav />
         <div className="ml-auto flex items-center space-x-4">
