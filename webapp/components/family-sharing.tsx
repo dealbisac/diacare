@@ -16,7 +16,7 @@ import {
 } from '@/components/ui/select';
 
 export function FamilySharing() {
-  const [sharedAccess, setSharedAccess] = useState<(SharedAccess & { granted_to: Profile })[]>([]);
+  const [sharedAccess, setSharedAccess] = useState<(SharedAccess & { granted_to: Profile, access_level: string })[]>([]);
   const [email, setEmail] = useState('');
   const [accessLevel, setAccessLevel] = useState('read');
   const { toast } = useToast();
