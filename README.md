@@ -80,7 +80,7 @@ Jack Dickinson
 ## Demo
 
 Access the application here: [DiaCare WebApp](https://diacare-techlabs.vercel.app/)  
-Screenshots and images of the app can be found in the [resources folder]().
+Screenshots and images of the app can be found in the [resources folder](https://github.com/dealbisac/diacare/tree/main/resources).
 
 ## Installation
 
