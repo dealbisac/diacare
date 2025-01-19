@@ -83,7 +83,7 @@ export function AlertSettings() {
                 value={alert.threshold_low || ''}
                 onChange={(e) =>
                   updateAlert(alert.id, {
-                    threshold_low: parseFloat(e.target.value),
+                    threshold_low: e.target.value.toString(),
                   })
                 }
                 placeholder="mg/dL"
@@ -97,7 +97,7 @@ export function AlertSettings() {
                 value={alert.threshold_high || ''}
                 onChange={(e) =>
                   updateAlert(alert.id, {
-                    threshold_high: parseFloat(e.target.value),
+                    threshold_high: e.target.value.toString(),
                   })
                 }
                 placeholder="mg/dL"
