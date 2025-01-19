@@ -2,7 +2,7 @@
 
 DiaCare is an innovative platform designed to simplify diabetes management for individuals and families. By integrating with blood glucose monitoring devices, providing real-time tracking, predictive insights, and fostering community collaboration, DiaCare empowers users to take control of their health and stay connected with their loved ones.
 
-![Web App Prototype](resources/mobile.png)
+![Mobile App Prototype](resources/mobile.png)
 
 ## Abstract
 
@@ -64,9 +64,9 @@ We have documented and stored project materials across various platforms:
 
 ## Tech Stack
 
-- **Frontend**: Web and mobile applications.
-- **Backend**: APIs for real-time data handling.
-- **Data Science**: Predictive analytics and time-series analysis using datasets.
+- **Frontend**: Web and mobile applications. (Nextjs, React, Shadcn, UI, ReactNative)
+- **Backend**: APIs for real-time data handling. (MongoDB, supabase, fastAPI)
+- **Data Science**: Predictive analytics and time-series analysis using datasets. (fastAPI)
 
 ## Contributors
 
@@ -82,6 +82,8 @@ Jack Dickinson
 ## Demo
 
 Access the application here: [DiaCare WebApp](https://diacare-techlabs.vercel.app/)  
+![Web App Prototype](resources/home.png)
+
 Screenshots and images of the app can be found in the [resources folder](https://github.com/dealbisac/diacare/tree/main/resources).
 
 ## Installation
