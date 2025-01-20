@@ -155,8 +155,8 @@ export default function AreaCharts() {
     <Card>
       <CardHeader className="flex items-center gap-2 space-y-0 border-b py-5 sm:flex-row">
         <div className="grid flex-1 gap-1 text-center sm:text-left">
-          <CardTitle>Blood Glucose Trends</CardTitle>
-          <CardDescription>Your blood glucose levels over time</CardDescription>
+          <CardTitle>Data of your Glucose Level</CardTitle>
+          <CardDescription>Choose the range over the period.</CardDescription>
         </div>
         <Select value={timeRange} onValueChange={setTimeRange}>
           <SelectTrigger
