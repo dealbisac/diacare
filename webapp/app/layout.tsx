@@ -3,13 +3,7 @@ import type { Metadata } from 'next';
 import { Raleway } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
-} from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs'
 
 const raleway = Raleway({ subsets: ['latin'] });
 

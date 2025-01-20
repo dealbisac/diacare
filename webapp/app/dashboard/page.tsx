@@ -17,6 +17,7 @@ import { DeviceStatus } from "@/components/device-status";
 import { FamilySharing } from "@/components/family-sharing";
 import { EmergencyContacts } from "@/components/emergency-contacts";
 import { AlertSettings } from "@/components/alert-settings";
+import AreaCharts from "@/components/area-chart";
 
 // Dummy Data
 const glucoseTrendsData = {
@@ -61,7 +62,8 @@ export default function DashboardPage() {
               </CardHeader>
               <CardContent>
                 <Suspense fallback={<Skeleton className="h-[50px] w-full" />}>
-                  <LineChart data={glucoseTrendsData} />
+                  {/* Old Linear Chart <LineChart data={glucoseTrendsData} /> */}
+                  <AreaCharts/>
                 </Suspense>
               </CardContent>
             </Card>
