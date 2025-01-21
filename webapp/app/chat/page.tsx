@@ -7,10 +7,10 @@ export default function ChatPage() {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="container py-6">
+      <main className="py-6">
         <div className="flex flex-col gap-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold">Community Chat</h1>
+            <h1 className="text-3xl font-bold">AI Chat</h1>
           </div>
           <Suspense fallback={<Skeleton className="h-[600px] w-full" />}>
             <CommunityChat />
