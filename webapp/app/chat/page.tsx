@@ -1,7 +1,8 @@
 import { Suspense } from 'react';
 import { SiteHeader } from "@/components/site-header";
-import { CommunityChat } from "@/components/community-chat";
+//import { CommunityChat } from "@/components/community-chat";
 import { Skeleton } from "@/components/ui/skeleton";
+import ChatWithAI from '@/components/ai-chat';
 
 export default function ChatPage() {
   return (
@@ -13,7 +14,8 @@ export default function ChatPage() {
             <h1 className="text-3xl font-bold">AI Chat</h1>
           </div>
           <Suspense fallback={<Skeleton className="h-[600px] w-full" />}>
-            <CommunityChat />
+            {/* <CommunityChat /> */}
+            <ChatWithAI/>
           </Suspense>
         </div>
       </main>
