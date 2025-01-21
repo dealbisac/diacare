@@ -5,17 +5,17 @@ import {
   FooterBottom,
   FooterContent,
 } from "../../ui/footer";
-import LaunchUI from "../../logos/launch-ui";
+import { Activity } from "lucide-react";
 
 export default function FooterSection() {
   return (
-    <footer className="w-full bg-background px-4">
+    <footer className="w-full bg-background">
       <div className="mx-auto max-w-container">
         <Footer>
           <FooterContent>
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
               <div className="flex items-center gap-2">
-                <LaunchUI />
+              <Activity className="h-4 w-4 mr-2" />
                 <h3 className="text-xl font-bold">DiaCare Inc.</h3>
               </div>
             </FooterColumn>
@@ -69,6 +69,16 @@ export default function FooterSection() {
               >
                 Twitter
               </a>
+            </FooterColumn>
+            <FooterColumn>
+              <h3 className="text-md pt-1 font-semibold">Our Address</h3>
+              <p className="text-sm text-muted-foreground">
+                1234 Hovedgåde 
+                <br />
+                Copenhagen, 2300, Denmark
+                <br />
+                +45 1234 5678
+              </p>
             </FooterColumn>
           </FooterContent>
           <FooterBottom>
