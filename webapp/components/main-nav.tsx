@@ -34,7 +34,7 @@ export function MainNav() {
       >
         <Link href="/chat">
           <MessageCircle className="h-4 w-4 mr-2" />
-          AI Chat
+          Chat
         </Link>
       </Button>
       <Button
